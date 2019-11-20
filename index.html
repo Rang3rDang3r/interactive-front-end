@@ -3,16 +3,18 @@
 
 <head>
     <title> Jasmine Testing </title>
+    <!--- Load Jasmine Framework --->
     <!--- Must be Loaded in this order --->
     <!--- Must have the Jasmine.js / html.js / boot.js / jasmine.css-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine-html.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/boot.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jasmine/3.5.0/jasmine.css" />
+    <!--- Load Scripts --->
+    <!--- Must be loaded before the test --->
+    <script type="text/javascript" src="scripts/calc.js"></script>
+    <!--- Load Tests --->
+    <script type="text/javascript" src="spec/calcSpec.js"></script>
 </head>
-
-<body>
-
-</body>
 
 </html>
